@@ -1,6 +1,6 @@
 # Note: If you want to deploy to a GitHub user site (user.github.io), change baseurl to /
 url: https://kinomysli.github.io/notess
-baseurl: "/notess"
+baseurl: /notess
 title: tufte-css-jekyll
 # Whether the header (with large title and subtitle) should be displayed
 header: true
@@ -15,11 +15,11 @@ permalink: /articles/:categories/:year/:month/:day/:title.html
 timezone: Europe/Berlin
 excerpt_separator: <!--more-->
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'DeployToGithub.Rakefile', 'README.md']
-post:
-  template: _post.txt
-  extension: md
-page:
-  template: _page.txt
-  extension: md
+# post:
+#   template: _post.txt
+#   extension: md
+# page:
+#   template: _page.txt
+#   extension: md
 git:
   branch: src
